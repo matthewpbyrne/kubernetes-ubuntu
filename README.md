@@ -38,7 +38,7 @@ chmod +x prepare-master.sh
 ```
 export nodes="ubuntu@52.49.241.209"
 export role="ai"
-export NUM_MINIONS=1
+export NUM_NODES=1
 export SERVICE_CLUSTER_IP_RANGE=192.168.3.0/24
 export FLANNEL_NET=172.16.0.0/16
 ```
