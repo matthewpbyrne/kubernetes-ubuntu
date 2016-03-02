@@ -35,16 +35,19 @@ chmod +x prepare-master.sh
 
 2. Then set up environment variables as appropriate:
 
+```
 export nodes="ubuntu@52.49.241.209"
 export role="ai"
 export NUM_MINIONS=1
 export SERVICE_CLUSTER_IP_RANGE=192.168.3.0/24
 export FLANNEL_NET=172.16.0.0/16
-
+```
 To override different versions:
+```
 export KUBE_VERSION=1.0.5
 export FLANNEL_VERSION=0.5.0
 export ETCD_VERSION=2.2.0
+```
 
 3. Run kubernetes. Again, make the script executable and then run:
 ```
