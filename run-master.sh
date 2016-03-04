@@ -1,4 +1,4 @@
-export KUBE_SOURCE_DIR=${KUBE_SOURCE_DIR:-"/home/ubuntu"}
+export KUBE_SOURCE_DIR=${KUBE_SOURCE_DIR:-$HOME}
 cd $KUBE_SOURCE_DIR/kubernetes/cluster
 KUBERNETES_PROVIDER=ubuntu ./kube-up.sh
 cd ubuntu
